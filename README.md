@@ -6,13 +6,13 @@ Example : docker build -t syedimran1/flask-1 .
 ### Step2 : Run Project Locally
 ```bash
 docker run -p 8080:8080 <docker-user-name>/<app-name>:latest
-Example : docker run -p 8080:8080 syedimran1/flask-11:latest
+Example : docker run -p 8080:8080 syedimran1/flask-1:latest
 ```
 
 ### Step3 : Push Project
 ```bash
 docker push <docker-user-name>/<app-name>:latest
-Example : docker push syedimran1/flask-11:latest
+Example : docker push syedimran1/flask-1:latest
 ```
 
 ### Step4 : Deploy Project
