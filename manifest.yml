@@ -1,0 +1,9 @@
+---
+applications:
+  - name: 	flask-1    
+    path: ./
+    description: Flask based selenium
+    docker:
+      image: syedimran1/flask-1  # Use your Docker Hub username and image name
+    disk_quota: 2G
+    memory: 1G
